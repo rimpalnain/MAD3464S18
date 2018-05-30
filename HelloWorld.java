@@ -36,8 +36,16 @@ public class HelloWorld {
        int n2 = n1++;
        System.out.println("value of n2 is " + n2);//201;
        System.out.println("value of n2 is " + n2);//201;
-       int n2 = ++n1;
-       System.out.println("value of n2 is" + n2 + 10);
-       System.out.println("value of n2 is" + (n2 + 10));
+       n2 = ++n1;
+       System.out.println("value of n2 is " + n2 + 10);
+       System.out.println("value of n2 is " + (n2 + 10));
+       c1 = 'K';//A-Z 65-97
+       System.out.println("value of c1 is " + c1);
+       System.out.println("value of c1 is " + (char)(c1 + 10));
+       System.out.println("value of C1 is " + (char)(c1 - 2));
+       n1 /=2;
+       System.out.println("value of n1 is " + n1);//202/2 =101;
+       c1 = 'C';
+       System.out.println("value of c1 is " + (char)(c1 + 8));
     } 
 }
